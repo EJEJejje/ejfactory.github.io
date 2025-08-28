@@ -1,0 +1,42 @@
+site_name: CodeIt Sprint
+site_description: 수업자료 포털 (Course Materials Hub)
+# site_url: https://<username>.github.io/<repo>/
+# repo_url: https://github.com/<username>/<repo>
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.top
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+  # logo: assets/images/logo.png
+  # favicon: assets/images/logo.png
+
+nav:
+  - 홈(Home): index.md
+  - OT: ot.md
+  - Week 1:
+      - Overview: week1.md
+      - Quiz: quiz/week1-quiz.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
