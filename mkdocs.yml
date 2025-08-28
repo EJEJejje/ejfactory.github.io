@@ -19,7 +19,7 @@ nav:
   - OT: ot.md
   - Week 1:
       - Overview: week1.md
-      - Quiz: quiz/week1-quiz.md
+  
 
 markdown_extensions:
   - admonition
