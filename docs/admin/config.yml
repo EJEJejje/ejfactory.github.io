@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: EJEJejie/ejfactory.github.io
+  repo: EJEjejje/ejfactory.github.io
   branch: main
   base_url: https://netlify-cms-github-oauth-provider-64dz.onrender.com
   auth_endpoint: auth
-  site_domain: ejejejje.github.io
+  site_domain: ejejejje.github.io/ejfactory.github.io
 
 media_folder: "docs/assets/images/uploads"
 public_folder: "/assets/images/uploads"
@@ -19,14 +19,12 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-
       - label: "Week 1"
         name: "week1"
         file: "docs/week1.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-
       - label: "Week 2"
         name: "week2"
         file: "docs/week2.md"
