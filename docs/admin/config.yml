@@ -1,13 +1,14 @@
 backend:
   name: github
-  repo: EJEjejje/ejfactory.github.io
-  branch: main
-  base_url: https://netlify-cms-github-oauth-provider-64dz.onrender.com
+  repo: EJEJejie/ejfactory.github.io
+  base_url: https://netlify-cms-github-oauth-provider-64dz.onrender.com  # Render OAuth 주소
   auth_endpoint: auth
-  site_domain: ejejejje.github.io
+  branch: main
 
-media_folder: "docs/assets/images/uploads"
-public_folder: "/assets/images/uploads"
+site_url: https://ejejejie.github.io/ejfactory.github.io
+public_folder: "/images/uploads"
+media_folder: "docs/static/images/uploads"
+
 
 collections:
   - name: "pages"
