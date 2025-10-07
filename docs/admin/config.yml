@@ -5,7 +5,7 @@ backend:
   base_url: https://netlify-cms-github-oauth-provider-64dz.onrender.com
   auth_endpoint: auth
   site_domain: ejejejje.github.io
-  path: /docs/admin
+  path: /ejfactory.github.io/admin
 
 media_folder: "docs/assets/images/uploads"
 public_folder: "/assets/images/uploads"
